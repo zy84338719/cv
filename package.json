@@ -38,7 +38,8 @@
     "sass-loader": "^8.0.0",
     "typescript": "^3.7.4",
     "underscore": "^1.8.3",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "minimist": ">=1.2.3"
   },
   "postcss": {
     "plugins": {
