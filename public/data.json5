@@ -1,0 +1,104 @@
+{
+  // 页面title
+  title: "墨菲易",
+  // 社交链接
+  social: {
+    github: "https://github.com/zy8338719",
+//    twitter: "https://twitter.com/murphyyi",
+//    linkedin: "https://www.linkedin.com/in/%s/",
+  },
+  // banner页
+  banner: {
+    anchor: {
+      id: "banner",
+      icon: "home",
+      name: "首页",
+    },
+    title: "墨菲易",
+    desc: [
+      "北方汉子",
+//      "宝爸一颗",
+      "码农一枚",
+//      "花名林舍",
+      "工作一二载",
+    ],
+  },
+  // 正文
+  // 不要修改各模块的 anchor.id
+  // 通过display控制模块是否展示
+  // 通过列表顺序控制模块展示顺序
+  modules: [
+    // 关于页
+    {
+      display: true,
+      anchor: {
+        id: "about",
+        icon: "user",
+        name: "关于"
+      },
+      header: {
+        title: "information",
+        subtitle: "about me",
+      },
+      content: {
+        name: "张易",
+        desc: [
+          "墨菲",
+          "易",
+        ],
+        md: "鄙人张易，生于北京，纯北方汉子，苦读十二载，后求学于江苏镇江~\
+        \n工作一二载，一域两城奔波，累哉累哉，自知其中快乐~",
+      },
+      //
+//      『**厚德、求真、砺学、笃行**』这是母校给予的八字真言，四年本科生涯、三年研究生涯，良师益友收获颇多~
+      //
+//      求学之际偶遇佳人，毕业之后终成正果，小窝一间、少爷一个，平平淡淡、快快乐乐~
+      //
+//      前有微波天线、后学电磁黑障，本非科班出身，出于热情投身猿类大军~\
+      // key - value 数量及内容完全自定义，链接自动识别
+      keys: {
+        "主页": "http://cv.murphyyi.com",
+        "博客": "http://blog.murphyyi.com",
+        "公众号": "麻瓜的自我修养",
+        "简历": "http://resume.murphyyi.com/#/preview/wangxiaowu"
+      },
+    },
+    // 履历
+    {
+      display: false,
+      anchor: {
+        id: "experience",
+        icon: "idcard",
+        name: "经历"
+      },
+      header: {
+        title: "experience",
+        subtitle: "my experience",
+      },
+      cards: [
+        {
+          title: "阿里巴巴（中国）网络技术有限公司",
+          //subtitle: "2018-08 至 今",
+          md: "<!--**<u>高级开发工程师</u>**-->\
+          \n\
+          \nAli的包容性带来更广的舞台与更大的成长空间，身为Alier，很荣幸能在这样的一家公司共同奋斗、发展",
+        },
+      ],
+    },
+    // 博客页
+    {
+      display: false,
+      anchor: {
+        id: "blog",
+        icon: "profile",
+        name: "博客",
+      },
+      header: {
+        title: "blog",
+        subtitle: "latest blog",
+      },
+      blog: "https://segmentfault.com/blog/murphyyi",
+      rss: "https://segmentfault.com/feeds/blog/murphyyi",
+    },
+  ],
+}
